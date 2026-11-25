@@ -1,0 +1,15 @@
+{
+  "canaries": [
+    "tc-test-001"
+  ],
+  "logs": [
+    {
+      "message": "filtered"
+    }
+  ],
+  "traces": [
+    {
+      "token": "[redacted]"
+    }
+  ]
+}
