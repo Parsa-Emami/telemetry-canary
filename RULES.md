@@ -15,4 +15,4 @@ Run `python3 -m unittest discover -s tests -v`, `python3 scripts/check_dependenc
 
 ## GitHub setup
 
-`.github/rulesets/main.json` is an importable ruleset. Activate it after the first CI run succeeds. The check contexts use the two job names above. Enable private vulnerability reporting, review the resulting rule summary, and verify that a PR with a failing check cannot merge. For documentation, configure Pages to deploy from the `main` branch and `/docs` folder. These repository settings require maintainer access.
+`.github/rulesets/main.json` is an importable ruleset. The [active ruleset](https://github.com/Parsa-Emami/telemetry-canary/rules/28073889) was applied after the first successful CI run. The check contexts use the two job names above. Private vulnerability reporting is enabled. [GitHub Pages](https://parsa-emami.github.io/telemetry-canary/) deploys from the `main` branch and `/docs` folder. Review these settings when the workflow names or default branch change.
